@@ -1,0 +1,72 @@
+{
+    "title": "Doublets (2016-Present)",
+    "slug": "doublets",
+    "data": [
+        {
+            "path": "images/doublets/1.jpg",
+            "data_title": "Title1",
+            "description": "Description1",
+            "featured": true
+        },
+        {
+            "path": "images/doublets/2.jpg",
+            "data_title": "Title2",
+            "description": "Description2"
+        },
+        {
+            "path": "images/doublets/3.jpg",
+            "data_title": "Title3",
+            "description": "Description3"
+        },
+        {
+            "path": "images/doublets/4.jpg",
+            "data_title": "Title4",
+            "description": "Description4"
+        },
+        {
+            "path": "images/doublets/5.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/doublets/6.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/doublets/7.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/doublets/8.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/doublets/9.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/doublets/10.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/doublets/11.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/doublets/12.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/doublets/13.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        }
+    ]
+}

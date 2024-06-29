@@ -1,0 +1,144 @@
+/* Make the container a bit smaller */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+/* Set the font family and size */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+}
+
+.navbar-brand-custom {
+    font-size: 1.5em;
+    color: red;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 1em;
+}
+
+.card {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-img-top {
+    flex-grow: 1;
+    object-fit: cover;
+    height: 350px; /* Set a fixed height for the images */
+    cursor: pointer;
+}
+
+.card-img-top-single {
+    height: 275px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px; /* Ensure consistent height for card body */
+}
+
+.content {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+/* Carousel */
+#imageCarousel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1055;
+    width: 70%;
+    /* Decreased width */
+    max-width: 800px;
+    /* Decreased max-width */
+    max-height: 85vh;
+    height: 700px;
+}
+
+#imageCarousel .carousel-inner {
+    max-height: 100%;
+    /* Ensure it uses the full height of the carousel */
+    height: 100%;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    z-index: 1060;
+}
+
+.carousel-control-prev-icon {
+    left: 15px;
+}
+
+.carousel-control-next-icon {
+    right: 15px;
+}
+
+.btn-close-custom {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    z-index: 1060;
+}
+
+.btn-close-custom::after {
+    content: 'X';
+}
+
+.btn-close-custom:hover {
+    color: rgba(255, 0, 0, 0.8);
+}
+
+.overlay-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.1s ease-in-out;
+    opacity: 0;
+    z-index: 1060;
+}
+
+.overlay-box.show {
+    opacity: 1;
+}

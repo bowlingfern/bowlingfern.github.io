@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicon/apple-touch-icon.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon/favicon-32x32.png" | relURL }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ "images/favicon/favicon-16x16.png" | relURL }}">
+    <link rel="manifest" href="{{ "images/favicon/site.webmanifest" | relURL }}">
+
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+    {{ block "head" . }}{{ end }}
+</head>
+<body class="d-flex flex-column min-vh-100 bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container mt-5">
+            <a class="navbar-brand navbar-brand-custom" href="{{ .Site.BaseURL }}">ROCHAK TIMILSINA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> MENU
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav navbar-nav-custom">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}">SELECTED WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main role="main" class="flex-shrink-0">
+        <div class="container mt-5">
+        {{ block "main" . }}{{ end }}
+        </div>
+    </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3 mt-5 mt-auto">
+        <div class="container">
+            &copy; Rochak Timilsina. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="{{ "js/bootstrap.bundle.min.js" | relURL }}"></script>
+    <script src="{{ "js/custom.js" | relURL }}"></script>
+    {{ block "scripts" . }}{{ end }}
+</body>
+</html>

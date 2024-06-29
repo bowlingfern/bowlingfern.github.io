@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+{{ $featuredImages := slice }}
+{{ $jsonFiles := readDir "data" }}
+{{ range $jsonFiles }}
+    {{ if strings.HasSuffix .Name ".json" }}
+        {{ $jsonData := getJSON (printf "data/%s" .Name) }}
+        {{ range $item := $jsonData.data }}
+            {{ $found := false }}
+            {{ if and (eq $item.featured true) (eq $found false) }}
+                {{ $featuredImages = $featuredImages | append (dict "title" $jsonData.title "slug" $jsonData.slug "path" $item.path) }}
+                {{ $found = true }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+<div class="row d-flex align-items-stretch">
+    {{ range $featuredImages }}
+        <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white text-center text-uppercase h-100">
+                <img src="{{ .Site.BaseUrl }}{{ .path }}" class="card-img-top" alt="{{ .title }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ .title }}</h5>
+                    <a href="{{ "/" | relLangURL }}{{ .slug }}" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+    {{ end }}
+</div>
+{{ end }}

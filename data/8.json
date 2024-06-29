@@ -1,0 +1,47 @@
+{
+    "title": "8 (2016-Present)",
+    "slug": "8",
+    "data": [
+        {
+            "path": "images/8/1.jpg",
+            "data_title": "Title1",
+            "description": "Description1",
+            "featured": true
+        },
+        {
+            "path": "images/8/2.jpg",
+            "data_title": "Title2",
+            "description": "Description2"
+        },
+        {
+            "path": "images/8/3.jpg",
+            "data_title": "Title3",
+            "description": "Description3"
+        },
+        {
+            "path": "images/8/4.jpg",
+            "data_title": "Title4",
+            "description": "Description4"
+        },
+        {
+            "path": "images/8/5.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/8/6.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/8/7.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/8/8.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        }
+    ]
+}

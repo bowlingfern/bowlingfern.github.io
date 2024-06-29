@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="row d-flex align-items-stretch">
+    {{ $jsonData := getJSON .Params.json }}
+    {{ $baseURL := .Site.BaseURL }}
+    {{ range $index, $item := $jsonData.data }}
+        <div class="col-md-3 mb-3">
+            <div class="card bg-dark text-white text-center text-uppercase h-100">
+                <img src="{{ $baseURL }}{{ .path }}" class="card-img-top card-img-top-single" alt="{{ .data_title }}" data-index="{{ $index }}" data-title="{{ .data_title }}" data-description="{{ .description }}">
+            </div>
+        </div>
+    {{ end }}
+</div>
+
+<div class="content">
+    {{ .Content }}
+</div>
+
+<!-- Hidden Carousel -->
+<div id="imageCarousel" class="carousel slide d-none carousel-fade" data-bs-interval="false">
+    <div class="carousel-inner">
+        {{ range $index, $item := $jsonData.data }}
+            <div class="carousel-item {{ if eq $index 0 }}active{{ end }}">
+                <img src="{{ $baseURL }}{{ .path }}" class="d-block w-100" alt="{{ .data_title }}" data-title ="{{ .data_title }}" data-description="{{ .description }}">
+            </div>
+        {{ end }}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    <button type="button" class="btn-close-custom position-absolute" aria-label="Close" id="closeCarousel"></button>
+
+    <!-- Overlay box -->
+    <div id="carouselOverlayBox" class="overlay-box">
+        <!-- Content of the overlay box -->
+        <div class="overlay-content">
+            <!-- Information to display -->
+            <h3 id="overlayContentTitle">Title</h3>
+            <p id="overlayContentDescription">Description</p>
+        </div>
+    </div>
+</div>
+
+<!-- Overlay to darken background when carousel is active -->
+<div id="carouselOverlay" class="d-none position-fixed top-0 start-0 w-100 h-100 bg-dark opacity-75"></div>
+{{ end }}

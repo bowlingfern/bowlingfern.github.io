@@ -1,0 +1,152 @@
+{
+    "title": "Ruins (2016-Present)",
+    "slug": "ruins",
+    "data": [
+        {
+            "path": "images/ruins/1.jpg",
+            "data_title": "Title1",
+            "description": "Description1",
+            "featured": true
+        },
+        {
+            "path": "images/ruins/2.jpg",
+            "data_title": "Title2",
+            "description": "Description2"
+        },
+        {
+            "path": "images/ruins/3.jpg",
+            "data_title": "Title3",
+            "description": "Description3"
+        },
+        {
+            "path": "images/ruins/4.jpg",
+            "data_title": "Title4",
+            "description": "Description4"
+        },
+        {
+            "path": "images/ruins/5.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/6.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/7.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/8.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/9.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/10.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/11.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/12.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/13.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/14.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/15.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/16.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/17.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/18.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/19.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/20.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/21.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/22.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/23.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/24.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/25.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/26.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/27.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/28.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/ruins/29.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        }
+    ]
+}

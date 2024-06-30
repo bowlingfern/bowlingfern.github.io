@@ -82,7 +82,13 @@ body {
 .carousel-item img {
     height: 100%;
     width: 100%;
-    object-fit: fill;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-item img {
+        object-fit: fill;
+    }
 }
 
 .carousel-control-prev-icon,

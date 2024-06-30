@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "Deploying updates..."
+echo "Deploying updates..."
 
 if [[ -n $(git status -s) ]]; then
     git add .
@@ -7,7 +7,7 @@ if [[ -n $(git status -s) ]]; then
     git pull origin main
     git push origin main
 
-    echo -e "Deployed successfully!"
+    echo "Deployed successfully!"
 else
     echo "No changes to commit. Deployment skipped."
 fi

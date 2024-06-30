@@ -60,9 +60,8 @@ body {
     width: 70%;
     /* Decreased width */
     max-width: 800px;
-    /* Decreased max-width */
-    max-height: 85vh;
     height: 700px;
+    max-height: 85vh;
 }
 
 #imageCarousel .carousel-inner {
@@ -83,7 +82,7 @@ body {
 .carousel-item img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .carousel-control-prev-icon,

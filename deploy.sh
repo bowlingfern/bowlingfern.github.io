@@ -2,8 +2,6 @@
 echo -e "Deploying updates to GitHub..."
 
 if [[ -n $(git status -s) ]]; then
-    hugo
-
     git add .
     git commit -m "Auto-commit $(date)"
     git pull origin main

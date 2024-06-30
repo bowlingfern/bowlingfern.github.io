@@ -1,0 +1,131 @@
+{
+    "title": "Architecture (2016-Present)",
+    "data": [
+        {
+            "path": "images/architecture/1.jpg",
+            "data_title": "Title1",
+            "description": "Description1",
+            "featured": true
+        },
+        {
+            "path": "images/architecture/2.jpg",
+            "data_title": "Title2",
+            "description": "Description2"
+        },
+        {
+            "path": "images/architecture/3.jpg",
+            "data_title": "Title3",
+            "description": "Description3"
+        },
+        {
+            "path": "images/architecture/4.jpg",
+            "data_title": "Title4",
+            "description": "Description4"
+        },
+        {
+            "path": "images/architecture/5.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/6.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/7.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/8.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/9.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/10.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/11.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/12.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/13.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/14.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/15.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/16.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/17.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/18.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/19.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/20.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/21.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/22.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/23.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/24.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/architecture/25.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        }
+    ]
+}

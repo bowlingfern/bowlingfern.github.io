@@ -1,14 +1,15 @@
 {{ define "main" }}
 
 {{ $featuredImages := slice }}
-{{ $jsonFiles := readDir "data" }}
-{{ range $jsonFiles }}
-    {{ if strings.HasSuffix .Name ".json" }}
-        {{ $jsonData := getJSON (printf "data/%s" .Name) }}
+{{ range .Site.RegularPages }}
+    {{ $page := . }}
+    {{ $jsonPath := .Params.json }}
+    {{ if $jsonPath }}
+        {{ $jsonData := getJSON $jsonPath }}
         {{ range $item := $jsonData.data }}
             {{ $found := false }}
             {{ if and (eq $item.featured true) (eq $found false) }}
-                {{ $featuredImages = $featuredImages | append (dict "title" $jsonData.title "slug" $jsonData.slug "path" $item.path) }}
+                {{ $featuredImages = $featuredImages | append (dict "title" $jsonData.title "link" $page.Permalink "path" $item.path) }}
                 {{ $found = true }}
             {{ end }}
         {{ end }}
@@ -22,7 +23,7 @@
                 <img src="{{ .Site.BaseUrl }}{{ .path }}" class="card-img-top" alt="{{ .title }}">
                 <div class="card-body">
                     <h5 class="card-title">{{ .title }}</h5>
-                    <a href="{{ "/" | relLangURL }}{{ .slug }}" class="stretched-link"></a>
+                    <a href="{{ .link }}" class="stretched-link"></a>
                 </div>
             </div>
         </div>

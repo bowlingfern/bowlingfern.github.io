@@ -1,0 +1,56 @@
+{
+    "title": "Collages (2016-Present)",
+    "data": [
+        {
+            "path": "images/collages/1.jpg",
+            "data_title": "Title1",
+            "description": "Description1",
+            "featured": true
+        },
+        {
+            "path": "images/collages/2.jpg",
+            "data_title": "Title2",
+            "description": "Description2"
+        },
+        {
+            "path": "images/collages/3.jpg",
+            "data_title": "Title3",
+            "description": "Description3"
+        },
+        {
+            "path": "images/collages/4.jpg",
+            "data_title": "Title4",
+            "description": "Description4"
+        },
+        {
+            "path": "images/collages/5.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/collages/6.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/collages/7.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/collages/8.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/collages/9.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        },
+        {
+            "path": "images/collages/10.jpg",
+            "data_title": "Title5",
+            "description": "Description5"
+        }
+    ]
+}

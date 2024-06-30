@@ -29,13 +29,13 @@ body {
 
 .card-img-top {
     flex-grow: 1;
-    object-fit: cover;
+    /* object-fit: cover; */
     height: 350px; /* Set a fixed height for the images */
     cursor: pointer;
 }
 
 .card-img-top-single {
-    height: 275px;
+    height: 250px;
 }
 
 .card-body {
@@ -82,14 +82,14 @@ body {
 .carousel-item img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .carousel-item img {
         object-fit: fill;
     }
-}
+} */
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {

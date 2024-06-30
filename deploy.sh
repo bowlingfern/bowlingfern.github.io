@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "Deploying updates to GitHub..."
+echo -e "Deploying updates..."
 
 if [[ -n $(git status -s) ]]; then
     git add .
